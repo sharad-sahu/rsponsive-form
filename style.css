@@ -1,0 +1,130 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+}
+body
+{
+	background-image: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+    color: #333;
+    font-size: 13px;
+}
+input, select, button
+{
+	font-family: arial;
+	font-size: 14px;
+	color: #333;
+}
+h3
+{
+	margin:0px;
+}
+image
+{
+	max-width: 100%;
+}
+.wrapper
+{
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	/*align-items: center;
+	justify-content: center;*/
+}
+.inner
+{
+	padding: 20px;
+	background-color: #fff;
+	max-width: 850px;
+	margin: auto;
+	display: flex;
+}
+
+.inner form
+{
+	width: 50%;
+	padding-left: 45px;
+	padding-top: 36px;
+	padding-right: 45px;
+}
+.inner h3
+{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+.form-grup
+{
+	display: flex;
+}
+.form-grup input
+{
+	width: 50%;
+}
+.form-grup input:first-child{
+	margin-right: 25px;
+}
+.form-wrapper
+{
+	position: relative;
+}
+.form-control
+{
+	border:1px solid #333;
+	border: none;
+	border-bottom: 1px solid #333;
+	display: block;
+	height:30px;
+	width: 100%;
+	padding-right: 0px;
+	margin-bottom: 25px;
+
+}
+select
+{
+	cursor: pointer;
+	padding-left: 20px;
+}
+button
+{
+	border:none;
+	width: 164px;
+	height:51px;
+	margin: auto;
+	margin-top: 40px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 0px;
+	background-color: #333;
+	font-size: 15px;
+	color: white;
+}
+@media (max-width: 1200px){
+	.inner{
+		display: block;
+	}
+
+	.inner .image-holder{
+		width: 100%;
+    }
+
+    .inner form
+    {
+    	width: 100%;
+    	padding: 40px 0 30px;
+    	margin-top: -20px;
+    }
+    button
+    {
+    	margin-top: -10px;
+    }
+    .form-control{
+    	width: 100%;
+    }
+}
